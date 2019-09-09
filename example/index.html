@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Data Binding</title>
+</head>
+<body>
+    <span bind="test"></span>
+    <input type="text" model="test">
+</body>
+<script src="../dist/index.js"></script>
+<script>
+
+window.obj = {
+    test: "Works"
+}
+
+const data = new binding(window.obj);
+</script>
+</html>
