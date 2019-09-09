@@ -1,4 +1,4 @@
-# Bindig
+# my-own-data-binding
 
 My own data binding implementation
 
